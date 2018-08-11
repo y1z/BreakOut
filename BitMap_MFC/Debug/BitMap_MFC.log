@@ -1,2 +1,3 @@
 ﻿  BitMap_MFCDlg.cpp
+c:\users\y. barraza\source\repos\bitmap_mfc\bitmap_mfc\bitmap_mfcdlg.cpp(158): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   BitMap_MFC.vcxproj -> C:\Users\Y. Barraza\source\repos\BitMap_MFC\Debug\BitMap_MFC.exe

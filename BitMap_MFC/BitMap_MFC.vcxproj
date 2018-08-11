@@ -184,8 +184,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Barra.h" />
     <ClInclude Include="BitMap_MFC.h" />
     <ClInclude Include="BitMap_MFCDlg.h" />
+    <ClInclude Include="EstructraDatosJuego.h" />
     <ClInclude Include="Pelota.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -194,6 +196,7 @@
   <ItemGroup>
     <ClCompile Include="BitMap_MFC.cpp" />
     <ClCompile Include="BitMap_MFCDlg.cpp" />
+    <ClCompile Include="Pelota.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,6 +208,7 @@
     <ResourceCompile Include="BitMapMFC.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="res\BitMapMFC.rc2" />
   </ItemGroup>
   <ItemGroup>
